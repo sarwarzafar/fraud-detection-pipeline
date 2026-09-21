@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+.venv/
+
+# Ignore all CSV datasets to prevent GitHub file size errors (max 100MB limit)
+*.csv
+data/*.csv
+
+# Python & Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# IDE settings
+.vscode/
